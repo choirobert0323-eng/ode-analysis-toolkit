@@ -1,0 +1,15 @@
+ID,Name,Canonical_Form
+FO-001,Separable,yprime=f(x)*g(y)
+FO-002,First-order linear,yprime+p(x)*y=q(x)
+FO-004,Bernoulli,yprime+p(x)*y=q(x)*y^n
+FO-005,Riccati,yprime=a(x)*y^2+b(x)*y+c(x)
+FO-006,Homogeneous ratio,yprime=F(y/x)
+FO-009,Autonomous,yprime=f(y)
+FO-010,Logistic candidate,yprime=a*y*(1-y/K)
+FO-012,Homogeneous linear,yprime+p(x)*y=0
+FO-013,Nonhomogeneous linear,yprime+p(x)*y=q(x)
+FO-015,Implicit first-order,F(x;y;yprime)=0
+FO-016,Abel candidate,yprime=a(x)*y^3+b(x)*y^2+c(x)*y+d(x)
+FO-018,Power-like separable candidate,yprime=x^a*y^b
+FO-019,Cauchy-type,x*yprime=G(y)
+FO-023,Explicit first-order,yprime=F(x;y)

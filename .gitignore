@@ -1,0 +1,17 @@
+# Local environments and generated files
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.coverage
+uploads/
